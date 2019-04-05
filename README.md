@@ -21,7 +21,7 @@ Full list of abreviations is as follows:
 #### Output
 ```
 @media (min-width: {breakpoint_variable}) {
-    ...
+        ...
     }
 }
 ```
