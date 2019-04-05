@@ -13,7 +13,7 @@ Full list of abreviations is as follows:
 | --- | --- | --- |
 | blm | $breakpoint-mobile-horizontal | 480 |
 | blt | $breakpoint-tablet | 768 |
-| blt1 | $breakpoint-horizontal | 1024 |
+| blt1 | $breakpoint-tablet-horizontal | 1024 |
 | bld | $breakpoint-desktop | 1280 |
 | bld1 | $breakpoint-wide | 1440 |
 | blx | ~ no breakpoint ~ | ~ xx ~ |
