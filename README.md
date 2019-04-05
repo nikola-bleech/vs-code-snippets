@@ -27,6 +27,9 @@ Full list of abreviations is as follows:
 ```
 
 ### Logic
-Formula: 
+Formula:
 `{bl}+{m;t;d}+{n}`
-`bl` stands for `bleech` where the consequent letter represents a viewport width (`m`-mobile; `t`-tablet, `d`-desktop), and the number `n=1,2,3...` reporesents a viewport modifier.
+
+* `bl` stands for `bleech`
+* consequent letter represents a viewport width (`m`-mobile; `t`-tablet, `d`-desktop)
+* the number `n=1,2,3...` represents a viewport modifier
