@@ -17,17 +17,8 @@
 		],
 		"description": "Breakpoint for tablet"
 	},
-	"Breakpoint for tablet-adjusted": {
-		"prefix": "blt1",
-		"body": [
-		  "@media (min-width: \\$breakpoint-tablet-adjusted) {",
-		  "  $1",
-		  "}"
-		],
-		"description": "Breakpoint for tablet adjusted"
-	},
 	"Breakpoint for tablet-horizontal": {
-		"prefix": "blt2",
+		"prefix": "blt1",
 		"body": [
 		  "@media (min-width: \\$breakpoint-tablet-horizontal) {",
 		  "  $1",
