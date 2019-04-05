@@ -36,7 +36,7 @@
 		"description": "Breakpoint for desktop"
 	},
 	"Breakpoint for desktop-wide": {
-		"prefix": "bld2",
+		"prefix": "bld1",
 		"body": [
 		  "@media (min-width: \\$breakpoint-desktop-wide) {",
 		  "  $1",
