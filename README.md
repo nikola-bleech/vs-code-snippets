@@ -8,8 +8,9 @@ Snippet that quickly inserts `bleech` SCSS media query with or without the appro
 ### Usage
 Snippet can be called in any SCSS file type by typing `bl{breakpoint_abbreviation}`.
 Full list of abreviations is as follows:
-| Abb           |   Full name     | Breakpoint [px]  |
-| ------------- |---------------------|--------------|
+
+| Abb | Full name | Breakpoint [px] |
+| --- | --- | --- |
 | blm | $breakpoint-mobile-horizontal | 480 |
 | blt | $breakpoint-tablet | 768 |
 | blt1 | $breakpoint-adjusted | 991 |

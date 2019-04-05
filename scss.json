@@ -1,56 +1,65 @@
 {
-	"Break point for mobile horizontal": {
+	"Breakpoint for mobile horizontal": {
 		"prefix": "blm",
 		"body": [
 		  "@media (min-width: \\$breakpoint-mobile-horizontal) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for mobile horizontal"
+		"description": "Breakpoint for mobile horizontal"
 	},
-	"Break point for tablet": {
+	"Breakpoint for tablet": {
 		"prefix": "blt",
 		"body": [
 		  "@media (min-width: \\$breakpoint-tablet) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for tablet"
+		"description": "Breakpoint for tablet"
 	},
-	"Break point for tablet-adjusted": {
+	"Breakpoint for tablet-adjusted": {
 		"prefix": "blt1",
 		"body": [
 		  "@media (min-width: \\$breakpoint-tablet-adjusted) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for tablet adjusted"
+		"description": "Breakpoint for tablet adjusted"
 	},
-	"Break point for tablet-horizontal": {
+	"Breakpoint for tablet-horizontal": {
 		"prefix": "blt2",
 		"body": [
 		  "@media (min-width: \\$breakpoint-tablet-horizontal) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for tablet horizontal"
+		"description": "Breakpoint for tablet horizontal"
 	},
-	"Break point for desktop": {
+	"Breakpoint for desktop": {
 		"prefix": "bld",
 		"body": [
 		  "@media (min-width: \\$breakpoint-desktop) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for desktop"
+		"description": "Breakpoint for desktop"
 	},
-	"Break point for desktop-wide": {
+	"Breakpoint for desktop-wide": {
 		"prefix": "bld2",
 		"body": [
 		  "@media (min-width: \\$breakpoint-desktop-wide) {",
-		  "  $0",
+		  "  $1",
 		  "}"
 		],
-		"description": "Break point for desktop wide"
+		"description": "Breakpoint for desktop wide"
 	},
+	"No breakpoint": {
+		"prefix": "blx",
+		"body": [
+		  "@media (min-width: $1) {",
+		  "  $2",
+		  "}"
+		],
+		"description": "No breakpoint"
+	}
 }
